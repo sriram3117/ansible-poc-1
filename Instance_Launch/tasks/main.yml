@@ -9,10 +9,10 @@
     image: "{{ image }}"
     wait: true
     instance_tags:
-      Name: CloudViews-DevEnv
+      Name: Tower-test-POC
     exact_count: 1
     count_tag:
-      Name: CloudViews-DevEnv
+      Name: Tower-test-POC
     monitoring: no
     region: "{{ region }}"
     vpc_subnet_id: "{{ subnet }}"
