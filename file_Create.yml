@@ -1,6 +1,6 @@
 ---
 - name: AWS Tag Management
-  hosts: demo-file-group
+  hosts: demo-file-ubuntu
   tasks:
      - file:
         path: /tmp/notify
