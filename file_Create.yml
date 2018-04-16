@@ -1,6 +1,6 @@
 ---
 - name: AWS Tag Management
-  hosts: dev
+  hosts: dev-rh
   tasks:
      - file:
         path: /tmp/notify
